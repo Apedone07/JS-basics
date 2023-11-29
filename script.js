@@ -63,6 +63,7 @@ const rental = 25;
 
 let myAge = 30;
 function checkAge() {
+console.log('running'+myAge);
 if (myAge < License && myAge <= Jrop) 
 { console.log('you can have a jrop license')
 }
